@@ -25,16 +25,16 @@ body {
 
 html{
     overflow-x: hidden;
-    cursor: url("/saMPLES/cursor.png"), auto;
+    cursor: url("cursor.png"), auto;
     scroll-behavior: smooth;
 }
 
 a {
-    cursor: url("/saMPLES/cursor-finger.png"), auto;
+    cursor: url("cursor-finger.png"), auto;
   }
 
 img{
-    cursor: url("/saMPLES/cursor-finger.png"), auto;
+    cursor: url("cursor-finger.png"), auto;
 }  
 
 ::-webkit-scrollbar{
@@ -305,7 +305,7 @@ img {
     content: "";
     width: 100%;
     height: 70%;
-    background: linear-gradient(rgba(var(--c-brand-rgb), 0.8), rgba(var(--c-brand-rgb), 0.8)), url(../images/counter.jpg);
+    background: linear-gradient(rgba(var(--c-brand-rgb), 0.8), rgba(var(--c-brand-rgb), 0.8)), url(counter.jpg);
     background-position: center;
     background-size: cover;
     position: absolute;
